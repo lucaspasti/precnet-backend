@@ -1,0 +1,43 @@
+# Ambiente virtual
+venv/
+.env
+
+# Arquivos de banco de dados SQLite
+*.db
+*.sqlite3
+
+# Cache e metadados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Diretórios temporários e uploads
+uploads/
+instance/
+*.pdf
+
+# Arquivos de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build e distribuição
+build/
+dist/
+*.egg-info/
+
+# Docker
+*.pid
+*.tar
+.dockerignore
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# PyInstaller
+*.spec
+    
