@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    container_name: precnet-backend
+    ports:
+      - "5000:5000"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    command: flask run --host=0.0.0.0
